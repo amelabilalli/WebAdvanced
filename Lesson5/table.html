@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table, td, th{
+            border: 1px solid;
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Filan</td>
+                <td>Fisteku</td>
+                <td>26</td>
+                <td>filanfisteku@gmail.com</td>
+            </tr>
+
+            <tr>
+                <td>Amela</td>
+                <td>Bilalli</td>
+                <td>15</td>
+                <td>amelabilalli@gmail.com</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td colspan="4">Table footer</td> 
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+
+    <table>
+        <tr>
+            <th>Name: </th>
+            <td>John Doe</td>
+            <td>Richard Roe</td>
+        </tr>
+
+        <tr>
+            <th rowspan="2">Email: </th>
+            <td>johndoe@gmail.com</td>
+            <td rowspan="2">richardroe@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td>johndoe2@gmail.com</td>
+        </tr>
+    </table>
+</body>
+</html>
