@@ -1,0 +1,12 @@
+body {
+    background: url(../images/code.png);
+    background-size: cover;
+}
+
+p {
+    color: aqua;
+    font-size: 20px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: lavender;
+}
