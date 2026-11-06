@@ -1,0 +1,57 @@
+h1 {
+    color: blue;
+    letter-spacing: 20px;
+    word-spacing: 30px;
+    font-family: "Fake Identity";
+}
+
+p {
+    text-indent: 50px;
+    text-align: center;
+    writing-mode: vertical-rl;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #eea0c6;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    line-height: 1.5;
+    text-decoration: none;
+    text-transform: none;
+}
+
+h2 {
+    text-decoration: overline;
+}
+
+h3 {
+    text-decoration: line-through;
+}
+
+h4 {
+    text-decoration: underline;
+}
+
+@font-face {
+    font-family: Fake Identity;
+    src: url("../fonts/fake_identity/Fake Identity.ttf");
+}
+
+.myElement {
+    color: blue;
+}
+
+#normalText {
+    font-style: normal;
+    font-weight: normal;
+}
+
+#italicText {
+    font-style: italic;
+    font-weight: bold;
+}
+
+#obliqueText {
+    font-style: oblique;
+    font-weight: 900;
+}
